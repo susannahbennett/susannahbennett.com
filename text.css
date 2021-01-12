@@ -6,9 +6,13 @@ h1 {
   color: white;
   margin-left: 20px;
 }
-/* entire menu color */
+/* entire menu color*/
 .topnav {
   background-color: #333;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
   overflow: hidden;
 }
 /* style links inside nav bar */
@@ -18,7 +22,7 @@ h1 {
   text-align: center:
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
 }
 /* color of link on hover */
 .topnav a:hover {
