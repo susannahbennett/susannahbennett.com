@@ -1,34 +1,41 @@
 body {
-  background-color: #FFFFFF;
+  background-color: rgb(255, 227, 227);
+  font-family: 'Times New Roman', Times, serif;
 }
-
 h1 {
-  color: white;
+  color: black;
   margin-left: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
-/* entire menu color*/
+/* entire menu color */
 .topnav {
   background-color: #333;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
   overflow: hidden;
-
+}
+/* style links inside nav bar */
+.topnav a {
   float: left;
+  font-family: 'Times New Roman', Times, serif;
   color: #f2f2f2;
-  text-align: center:
+  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 25px;
-}
+  font-size: 17px;
+  display: flex;
+  justify-content: space-around;
+  }
 /* color of link on hover */
-.topnav:hover {
+.topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 /* active link */
-.topnav:active {
+.topnav a.active {
   background-color: #FFBEA2;
   color: white;
 }
+/*
+.topnav a.home {
+
+}
+*/
